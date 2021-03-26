@@ -1,3 +1,6 @@
 module.exports = {
-  mode: "developent",
+  mode: "development",
+  devServer: {
+    port: 8081,
+  },
 };
