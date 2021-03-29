@@ -8,7 +8,7 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "products",
-      fileName: "remoteEntry.js",
+      filename: "remoteEntry.js",
       exposes: {
         "./ProductsIndex": "./src/index",
       },
