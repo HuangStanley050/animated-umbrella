@@ -13,6 +13,6 @@ export const mount = (htmlElement) => {
 if (process.env.NODE_ENV === "development") {
   const el = document.getElementById("dev-products");
   if (el) {
-    mount();
+    mount(el);
   }
 }
